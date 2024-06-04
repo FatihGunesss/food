@@ -1,0 +1,128 @@
+.sidebar-wrapper__icons {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.sidebar-logo {
+    margin-bottom: 3.5rem;
+}
+
+.home {
+    background-color: #252836;
+}
+
+.corner-up {
+    position: relative;
+}
+
+.corner-down {
+    position: relative;
+}
+
+.corner-up::after {
+    content: url("assets/image/icons/üst-köşe.svg");
+    position: absolute;
+    top: -67px;
+    left: 53px;
+    color: white;
+}
+
+.corner-down::before {
+    content: url("assets/image/icons/alt-köşe.svg");
+    position: absolute;
+    top: 47px;
+    left: 33px;
+    color: aliceblue;
+}
+
+.home-icon img {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: none;
+    height: 65vh;
+}
+
+.nav-wrap::-webkit-scrollbar{
+    display: none;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 12px;
+    margin: 12px;
+    margin-right: -4px;
+    padding: 30px 30px 30px 15px;
+}
+
+.nav-item:hover .back {
+    background-color: #EA7C69;
+}
+
+.nav-item:hover .back svg {
+    fill: #fff;
+}
+
+.back {
+    padding: 21px 21px 16px 21px;
+    border-radius: 8px;
+    transition: all ease 0.3s;
+}
+
+.back svg {
+    width: 20px;
+    height: 20px;
+    fill: #EA7C69;
+}
+
+.active-menu {
+    position: relative;
+    padding: 30px 30px 30px 15px;
+    background-color: #252836;
+    border-radius: 12px 0 0 12px;
+}
+
+.active-menu:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-image: url("assets/image/icons/üst-köşe.svg");
+    position: absolute;
+    top: -24px;
+    right: -3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.active-menu:after {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-image: url("assets/image/icons/üst-köşe.svg");
+    position: absolute;
+    bottom: -24px;
+    right: -2px;
+    transform: rotate(270deg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.active-menu .back svg {
+    fill: #fff;
+}
+
+.active-menu .back {
+    background-color: #EA7C69;
+    box-shadow: 0 0 11px 4px rgba(234, 124, 105, 0.32);
+}
+
+.sidebar-logout{
+    fill: #EA7C69;
+}
