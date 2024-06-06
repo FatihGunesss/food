@@ -184,7 +184,7 @@ const Dashboard = () => {
                   </p>
                 </td>
                 <td className="report-table__content">${item.total}</td>
-                <td className="report-table__content"><p className={item.status == "Completed" ? "table-status status-completed" : item.status == "Preparing" ? "table-status status-preparing" : "table-status status-pending"}>{item.status}</p></td>
+                <td className="report-table__content"><p className={item.status === "Completed" ? "table-status status-completed" : item.status === "Preparing" ? "table-status status-preparing" : "table-status status-pending"}>{item.status}</p></td>
               </tr>
             ))}
           </tbody>

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Footer, Sidebar, Header, Basket} from "components";
+import {Sidebar, Header, Basket} from "components";
 import { About, Dashboard, Home } from "pages";
 
 function App() {
