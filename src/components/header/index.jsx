@@ -9,8 +9,8 @@ const Header = (className) => {
       <div className="container">
       <div className={className + " header"}>
         <div className="header-tds">
-          <h1 className="header-title">Jaegar Resto</h1>
-          <p className="header-desc">Tuesday, 2 Feb 2021</p>
+          <h1 className="header-title">Fatih Resto</h1>
+          <p className="header-desc">Wednesday, 29 May 2024</p>
         </div>
 
         <div>

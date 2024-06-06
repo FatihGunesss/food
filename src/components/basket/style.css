@@ -1,5 +1,5 @@
 .orders-wrap{
-    padding: 24px 24px 114px 24px;
+    padding: 24px 24px 0 24px;
 }
 
 .basket-wrapper{
@@ -71,8 +71,7 @@
 
 .orders-basket__wrap{
     overflow-y: scroll;
-    overflow-x: none;
-    height: 70vh;
+    height: 40vh;
 }
 
 .orders-basket__wrap::-webkit-scrollbar{
@@ -169,7 +168,7 @@
     border-radius: 8px;
     outline: none;
     background-color: #2D303E;
-    padding: 14px 105px 14px 14px;
+    padding: 14px 68px 14px 14px;
     color: #ABBBC2;
 }
 

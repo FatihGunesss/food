@@ -1,5 +1,5 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "assets/image/icons/Logo.svg";
 import {
   Home,
   Discount,
@@ -9,10 +9,7 @@ import {
   Settings,
   Logout
 } from "assets/image/icons";
-import { useState } from "react";
-
-
-
+import Logo from "assets/image/icons/Logo.svg";
 import "assets/allCss/all.css";
 import "assets/allCss/container.css";
 import "assets/allCss/font.css";

@@ -26,6 +26,7 @@ li {
 .wrapper {
     display: flex;
     justify-content: space-between;
+    height: 100vh;
 }
 
 .inner-wrap{
@@ -35,12 +36,12 @@ li {
 
 .sidebar-item {
     width: 11%;
-    /* height: 100vh; */
+    height: 96.5vh;
     background-color: #1F1D2B;
 }
 
 .page-wrap{
-    padding: 24px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -52,7 +53,7 @@ li {
 
 .basket-item{
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
     background-color: #1F1D2B;
 }
 

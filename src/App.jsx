@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import { Footer, Sidebar, Header, Basket, Button  } from "components";
-import { About, Home } from "pages";
+import { Footer, Sidebar, Header, Basket} from "components";
+import { About, Dashboard, Home } from "pages";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/discount" element={<About />} />
+            <Route path= "/dashboard" element={<Dashboard/>}/>
           </Routes>
         </div>
       </div>
